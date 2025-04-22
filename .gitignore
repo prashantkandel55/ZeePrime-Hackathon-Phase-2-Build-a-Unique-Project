@@ -1,0 +1,32 @@
+# Ignore node_modules and build artifacts
+node_modules/
+dist/
+
+# Ignore Solana build artifacts
+**/target/
+**/.anchor/
+
+# Ignore environment and key files
+.env
+*.key
+*.json
+
+# Ignore large downloaded files (add patterns for your project as needed)
+*.mp4
+*.zip
+*.tar.gz
+*.7z
+*.exe
+*.dmg
+*.iso
+*.bin
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
